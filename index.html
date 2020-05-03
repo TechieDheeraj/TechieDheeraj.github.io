@@ -1,44 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165400975-1"></script>
+  <script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
 
-  <title>DevFolio Bootstrap Portfolio Template - Index</title>
-  <meta content="" name="descriptison">
+	  gtag('config', 'UA-165400975-1');
+  </script>
+  <meta charset="utf-8">
+  <title>Dheeraj Kakkar</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
+  <meta content="" name="description">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+  
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: DevFolio - v2.0.0
-  * Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body id="page-top">
 
-  <!-- ======= Header/ Navbar ======= -->
+  <!--/ Nav Star /-->
   <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll" href="#page-top">DevFolio</a>
-      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+        aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span></span>
         <span></span>
         <span></span>
@@ -46,19 +49,22 @@
       <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link js-scroll active" href="index.html">Home</a>
+            <a class="nav-link js-scroll active" href="#home">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll" href="#service">Services</a>
+            <a class="nav-link js-scroll" href="#service">Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll" href="#work">Work</a>
+            <a class="nav-link js-scroll" href="#work">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll" href="#blog">Blog</a>
+            <a class="nav-link js-scroll" href="#blog">Blogs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="resume.pdf">Resume</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll" href="#contact">Contact</a>
@@ -67,713 +73,688 @@
       </div>
     </div>
   </nav>
+  <!--/ Nav End /-->
 
-  <!-- ======= Intro Section ======= -->
-  <div id="home" class="intro route bg-image" style="background-image: url(assets/img/intro-bg.jpg)">
+  <!--/ Intro Skew Star /-->
+  <div id="home" class="intro route bg-image" style="background-image: url(img/preview.jpg)">
     <div class="overlay-itro"></div>
     <div class="intro-content display-table">
       <div class="table-cell">
         <div class="container">
           <!--<p class="display-6 color-d">Hello, world!</p>-->
-          <h1 class="intro-title mb-4">I am Morgan Freeman</h1>
-          <p class="intro-subtitle"><span class="text-slider-items">CEO DevFolio,Web Developer,Web Designer,Frontend Developer,Graphic Designer</span><strong class="text-slider"></strong></p>
+          <h1 class="intro-title mb-4">Hey there, I am Dheeraj</h1>
+          <p class="intro-subtitle"><span class="text-slider-items">Software Developer, Competitive Programmer, C/C++/Python Dev, Reverse Engineer, Low-Level(x86) Programmer, System Designer, CTF Player, Security Enthusiast, Computer Nerd</span><strong class="text-slider"></strong></p>
           <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
         </div>
       </div>
     </div>
-  </div><!-- End Intro Section -->
+  </div>
+  <!--/ Intro Skew End /-->
 
-  <main id="main">
 
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about-mf sect-pt4 route">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="box-shadow-full">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="row">
-                    <div class="col-sm-6 col-md-5">
-                      <div class="about-img">
-                        <img src="assets/img/testimonial-2.jpg" class="img-fluid rounded b-shadow-a" alt="">
-                      </div>
-                    </div>
-                    <div class="col-sm-6 col-md-7">
-                      <div class="about-info">
-                        <p><span class="title-s">Name: </span> <span>Morgan Freeman</span></p>
-                        <p><span class="title-s">Profile: </span> <span>full stack developer</span></p>
-                        <p><span class="title-s">Email: </span> <span>contact@example.com</span></p>
-                        <p><span class="title-s">Phone: </span> <span>(617) 557-0089</span></p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="skill-mf">
-                    <p class="title-s">Skill</p>
-                    <span>HTML</span> <span class="pull-right">85%</span>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <span>CSS3</span> <span class="pull-right">75%</span>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <span>PHP</span> <span class="pull-right">50%</span>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <span>JAVASCRIPT</span> <span class="pull-right">90%</span>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="about-me pt-4 pt-md-0">
-                    <div class="title-box-2">
-                      <h5 class="title-left">
-                        About me
-                      </h5>
-                    </div>
-                    <p class="lead">
-                      Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id
-                      imperdiet et, porttitor
-                      at sem. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla
-                      porttitor accumsan tincidunt.
-                    </p>
-                    <p class="lead">
-                      Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget felis
-                      porttitor volutpat. Vestibulum
-                      ac diam sit amet quam vehicula elementum sed sit amet dui. porttitor at sem.
-                    </p>
-                    <p class="lead">
-                      Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim.
-                      Nulla porttitor accumsan
-                      tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- End About Section -->
-
-    <!-- ======= Services Section ======= -->
-    <section id="service" class="services-mf route">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="title-box text-center">
-              <h3 class="title-a">
-                Services
-              </h3>
-              <p class="subtitle-a">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              </p>
-              <div class="line-mf"></div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle"><i class="ion-monitor"></i></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">Web Design</h2>
-                <p class="s-description text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                  provident vitae! Magni
-                  tempora perferendis eum non provident.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle"><i class="ion-code-working"></i></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">Web Development</h2>
-                <p class="s-description text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                  provident vitae! Magni
-                  tempora perferendis eum non provident.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle"><i class="ion-camera"></i></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">Photography</h2>
-                <p class="s-description text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                  provident vitae! Magni
-                  tempora perferendis eum non provident.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle"><i class="ion-android-phone-portrait"></i></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">Responsive Design</h2>
-                <p class="s-description text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                  provident vitae! Magni
-                  tempora perferendis eum non provident.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle"><i class="ion-paintbrush"></i></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">Graphic Design</h2>
-                <p class="s-description text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                  provident vitae! Magni
-                  tempora perferendis eum non provident.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle"><i class="ion-stats-bars"></i></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">Marketing Services</h2>
-                <p class="s-description text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                  provident vitae! Magni
-                  tempora perferendis eum non provident.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- End Services Section -->
-
-    <!-- ======= Counter Section ======= -->
-    <div class="section-counter paralax-mf bg-image" style="background-image: url(assets/img/counters-bg.jpg)">
-      <div class="overlay-mf"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-3 col-lg-3">
-            <div class="counter-box counter-box pt-4 pt-md-0">
-              <div class="counter-ico">
-                <span class="ico-circle"><i class="ion-checkmark-round"></i></span>
-              </div>
-              <div class="counter-num">
-                <p class="counter">450</p>
-                <span class="counter-text">WORKS COMPLETED</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-3 col-lg-3">
-            <div class="counter-box pt-4 pt-md-0">
-              <div class="counter-ico">
-                <span class="ico-circle"><i class="ion-ios-calendar-outline"></i></span>
-              </div>
-              <div class="counter-num">
-                <p class="counter">15</p>
-                <span class="counter-text">YEARS OF EXPERIENCE</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-3 col-lg-3">
-            <div class="counter-box pt-4 pt-md-0">
-              <div class="counter-ico">
-                <span class="ico-circle"><i class="ion-ios-people"></i></span>
-              </div>
-              <div class="counter-num">
-                <p class="counter">550</p>
-                <span class="counter-text">TOTAL CLIENTS</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-3 col-lg-3">
-            <div class="counter-box pt-4 pt-md-0">
-              <div class="counter-ico">
-                <span class="ico-circle"><i class="ion-ribbon-a"></i></span>
-              </div>
-              <div class="counter-num">
-                <p class="counter">36</p>
-                <span class="counter-text">AWARD WON</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div><!-- End Counter Section -->
-
-    <!-- ======= Portfolio Section ======= -->
-    <section id="work" class="portfolio-mf sect-pt4 route">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="title-box text-center">
-              <h3 class="title-a">
-                Portfolio
-              </h3>
-              <p class="subtitle-a">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              </p>
-              <div class="line-mf"></div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="assets/img/work-1.jpg" data-gall="portfolioGallery" class="venobox">
-                <div class="work-img">
-                  <img src="assets/img/work-1.jpg" alt="" class="img-fluid">
-                </div>
-                <div class="work-content">
-                  <div class="row">
-                    <div class="col-sm-8">
-                      <h2 class="w-title">Lorem impsum dolor</h2>
-                      <div class="w-more">
-                        <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
-                      </div>
-                    </div>
-                    <div class="col-sm-4">
-                      <div class="w-like">
-                        <span class="ion-ios-plus-outline"></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="assets/img/work-2.jpg" data-gall="portfolioGallery" class="venobox">
-                <div class="work-img">
-                  <img src="assets/img/work-2.jpg" alt="" class="img-fluid">
-                </div>
-                <div class="work-content">
-                  <div class="row">
-                    <div class="col-sm-8">
-                      <h2 class="w-title">Loreda Cuno Nere</h2>
-                      <div class="w-more">
-                        <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
-                      </div>
-                    </div>
-                    <div class="col-sm-4">
-                      <div class="w-like">
-                        <span class="ion-ios-plus-outline"></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="assets/img/work-3.jpg" data-gall="portfolioGallery" class="venobox">
-                <div class="work-img">
-                  <img src="assets/img/work-3.jpg" alt="" class="img-fluid">
-                </div>
-                <div class="work-content">
-                  <div class="row">
-                    <div class="col-sm-8">
-                      <h2 class="w-title">Mavrito Lana Dere</h2>
-                      <div class="w-more">
-                        <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
-                      </div>
-                    </div>
-                    <div class="col-sm-4">
-                      <div class="w-like">
-                        <span class="ion-ios-plus-outline"></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="assets/img/work-4.jpg" data-gall="portfolioGallery" class="venobox">
-                <div class="work-img">
-                  <img src="assets/img/work-4.jpg" alt="" class="img-fluid">
-                </div>
-                <div class="work-content">
-                  <div class="row">
-                    <div class="col-sm-8">
-                      <h2 class="w-title">Bindo Laro Cado</h2>
-                      <div class="w-more">
-                        <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
-                      </div>
-                    </div>
-                    <div class="col-sm-4">
-                      <div class="w-like">
-                        <span class="ion-ios-plus-outline"></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="assets/img/work-5.jpg" data-gall="portfolioGallery" class="venobox">
-                <div class="work-img">
-                  <img src="assets/img/work-5.jpg" alt="" class="img-fluid">
-                </div>
-                <div class="work-content">
-                  <div class="row">
-                    <div class="col-sm-8">
-                      <h2 class="w-title">Studio Lena Mado</h2>
-                      <div class="w-more">
-                        <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
-                      </div>
-                    </div>
-                    <div class="col-sm-4">
-                      <div class="w-like">
-                        <span class="ion-ios-plus-outline"></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="assets/img/work-6.jpg" data-gall="portfolioGallery" class="venobox">
-                <div class="work-img">
-                  <img src="assets/img/work-6.jpg" alt="" class="img-fluid">
-                </div>
-                <div class="work-content">
-                  <div class="row">
-                    <div class="col-sm-8">
-                      <h2 class="w-title">Studio Big Bang</h2>
-                      <div class="w-more">
-                        <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2017</span>
-                      </div>
-                    </div>
-                    <div class="col-sm-4">
-                      <div class="w-like">
-                        <span class="ion-ios-plus-outline"></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section><!-- End Portfolio Section -->
-
-    <!-- ======= Testimonials Section ======= -->
-    <div class="testimonials paralax-mf bg-image" style="background-image: url(assets/img/overlay-bg.jpg)">
-      <div class="overlay-mf"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div id="testimonial-mf" class="owl-carousel owl-theme">
-              <div class="testimonial-box">
-                <div class="author-test">
-                  <img src="assets/img/testimonial-2.jpg" alt="" class="rounded-circle b-shadow-a">
-                  <span class="author">Xavi Alonso</span>
-                </div>
-                <div class="content-test">
-                  <p class="description lead">
-                    Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit.
-                  </p>
-                  <span class="comit"><i class="fa fa-quote-right"></i></span>
-                </div>
-              </div>
-              <div class="testimonial-box">
-                <div class="author-test">
-                  <img src="assets/img/testimonial-4.jpg" alt="" class="rounded-circle b-shadow-a">
-                  <span class="author">Marta Socrate</span>
-                </div>
-                <div class="content-test">
-                  <p class="description lead">
-                    Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit.
-                  </p>
-                  <span class="comit"><i class="fa fa-quote-right"></i></span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div><!-- End Testimonials Section -->
-
-    <!-- ======= Blog Section ======= -->
-    <section id="blog" class="blog-mf sect-pt4 route">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="title-box text-center">
-              <h3 class="title-a">
-                Blog
-              </h3>
-              <p class="subtitle-a">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              </p>
-              <div class="line-mf"></div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="card card-blog">
-              <div class="card-img">
-                <a href="blog-single.html"><img src="assets/img/post-1.jpg" alt="" class="img-fluid"></a>
-              </div>
-              <div class="card-body">
-                <div class="card-category-box">
-                  <div class="card-category">
-                    <h6 class="category">Travel</h6>
-                  </div>
-                </div>
-                <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
-                <p class="card-description">
-                  Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                  a pellentesque nec,
-                  egestas non nisi.
-                </p>
-              </div>
-              <div class="card-footer">
-                <div class="post-author">
-                  <a href="#">
-                    <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                    <span class="author">Morgan Freeman</span>
-                  </a>
-                </div>
-                <div class="post-date">
-                  <span class="ion-ios-clock-outline"></span> 10 min
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card card-blog">
-              <div class="card-img">
-                <a href="blog-single.html"><img src="assets/img/post-2.jpg" alt="" class="img-fluid"></a>
-              </div>
-              <div class="card-body">
-                <div class="card-category-box">
-                  <div class="card-category">
-                    <h6 class="category">Web Design</h6>
-                  </div>
-                </div>
-                <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
-                <p class="card-description">
-                  Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                  a pellentesque nec,
-                  egestas non nisi.
-                </p>
-              </div>
-              <div class="card-footer">
-                <div class="post-author">
-                  <a href="#">
-                    <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                    <span class="author">Morgan Freeman</span>
-                  </a>
-                </div>
-                <div class="post-date">
-                  <span class="ion-ios-clock-outline"></span> 10 min
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card card-blog">
-              <div class="card-img">
-                <a href="blog-single.html"><img src="assets/img/post-3.jpg" alt="" class="img-fluid"></a>
-              </div>
-              <div class="card-body">
-                <div class="card-category-box">
-                  <div class="card-category">
-                    <h6 class="category">Web Design</h6>
-                  </div>
-                </div>
-                <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
-                <p class="card-description">
-                  Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                  a pellentesque nec,
-                  egestas non nisi.
-                </p>
-              </div>
-              <div class="card-footer">
-                <div class="post-author">
-                  <a href="#">
-                    <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                    <span class="author">Morgan Freeman</span>
-                  </a>
-                </div>
-                <div class="post-date">
-                  <span class="ion-ios-clock-outline"></span> 10 min
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- End Blog Section -->
-
-    <!-- ======= Contact Section ======= -->
-    <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(assets/img/overlay-bg.jpg)">
-      <div class="overlay-mf"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="contact-mf">
-              <div id="contact" class="box-shadow-full">
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="title-box-2">
-                      <h5 class="title-left">
-                        Send Message Us
-                      </h5>
-                    </div>
-                    <div>
-                      <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                        <div class="row">
-                          <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                              <div class="validate"></div>
-                            </div>
-                          </div>
-                          <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                              <div class="validate"></div>
-                            </div>
-                          </div>
-                          <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                              <div class="validate"></div>
-                            </div>
-                          </div>
-                          <div class="col-md-12">
-                            <div class="form-group">
-                              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                              <div class="validate"></div>
-                            </div>
-                          </div>
-                          <div class="col-md-12 text-center mb-3">
-                            <div class="loading">Loading</div>
-                            <div class="error-message"></div>
-                            <div class="sent-message">Your message has been sent. Thank you!</div>
-                          </div>
-                          <div class="col-md-12 text-center">
-                            <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
-                          </div>
-                        </div>
-                      </form>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="title-box-2 pt-4 pt-md-0">
-                      <h5 class="title-left">
-                        Get in Touch
-                      </h5>
-                    </div>
-                    <div class="more-info">
-                      <p class="lead">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum dolorem soluta quidem
-                        expedita aperiam aliquid at.
-                        Totam magni ipsum suscipit amet? Autem nemo esse laboriosam ratione nobis
-                        mollitia inventore?
-                      </p>
-                      <ul class="list-ico">
-                        <li><span class="ion-ios-location"></span> 329 WASHINGTON ST BOSTON, MA 02108</li>
-                        <li><span class="ion-ios-telephone"></span> (617) 557-0089</li>
-                        <li><span class="ion-email"></span> contact@example.com</li>
-                      </ul>
-                    </div>
-                    <div class="socials">
-                      <ul>
-                        <li><a href=""><span class="ico-circle"><i class="ion-social-facebook"></i></span></a></li>
-                        <li><a href=""><span class="ico-circle"><i class="ion-social-instagram"></i></span></a></li>
-                        <li><a href=""><span class="ico-circle"><i class="ion-social-twitter"></i></span></a></li>
-                        <li><a href=""><span class="ico-circle"><i class="ion-social-pinterest"></i></span></a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- End Contact Section -->
-
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer>
+  <section id="about" class="about-mf sect-pt4 route">
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
-          <div class="copyright-box">
-            <p class="copyright">&copy; Copyright <strong>DevFolio</strong>. All Rights Reserved</p>
-            <div class="credits">
-              <!--
-              All the links in the footer should remain intact.
-              You can delete the links only if you purchased the pro version.
-              Licensing information: https://bootstrapmade.com/license/
-              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=DevFolio
-            -->
-              Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          <div class="box-shadow-full">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="row">
+                  <div class="col-sm-6 col-md-5">
+                    <div class="about-img">
+                      <img src="img/dpp.jpg" class="img-fluid rounded b-shadow-a" alt="">
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-md-7">
+                    <div class="about-info">
+                      <p><span class="title-s">Name: </span> <span>Dheeraj Kakkar</span></p>
+                      <p><span class="title-s">Profile: </span> <span>Software Developer</span></p>
+                      <p><span class="title-s">Email: </span> <span>Dheeraj.embdeveloper@gmail.com</span></p>
+                      
+                    </div>
+                  </div>
+                </div>
+                <div class="skill-mf">
+                  <p class="title-s">My Arsenals</p>
+                  <span>PROBLEM SOLVING</span> <span class="pull-right">95%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <span>DS & ALGORITHMS</span> <span class="pull-right">85%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <span>C/C++ PROGRAMMING</span> <span class="pull-right">90%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <span>PYTHON</span> <span class="pull-right">80%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <span>SYSTEM DESIGNING</span> <span class="pull-right">70%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <span>x86 ASSEMBLY</span> <span class="pull-right">80%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <span>GDB</span> <span class="pull-right">95%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <span>LINUX OS</span> <span class="pull-right">90%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <span>LINUX KERNEL DEVELOPMENT</span> <span class="pull-right">60%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <span>LINUX NETWORKING</span> <span class="pull-right">90%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <span>NMAP</span> <span class="pull-right">85%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <span>WIRESHARK</span> <span class="pull-right">80%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <span>MYSQL</span> <span class="pull-right">60%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+<!--
+                  <span>BUFFER OVERFLOW</span> <span class="pull-right">70%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+-->
+
+                  <!--my arsenals upto here-->
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="about-me pt-4 pt-md-0">
+                  <div class="title-box-2">
+                    <h5 class="title-left">
+                      About me
+                    </h5>
+                  </div>
+                  <p class="lead">
+                    I’m an aspiring <u><mark>Software Engineer</mark></u> with 4+ years experience, currently working in <mark><u><a href = "https://www.f5.com">F5 Networks Pvt. Ltd. </a></u></mark> I have done my graduation (May 2016) with a Bachelor of Technology in Electronics and Communication Engineering from <mark><u><a href = "http://mdu.ac.in">MDU university</a></u></mark>
+                  </p>
+                  <p class="lead">
+                    I’ve had an interest in working with computers since learning to write codes with <mark><u>C</u></mark> in the 11th grade.
+                  </p>
+                  <p class="lead">
+                    Previously, I’ve Worked at a startup <mark><u><a href = "http://iotina.io">Iotina Technologies Pvt. Ltd. </a></u></mark> as a <strong>Software Developer</strong>. I have experience in a variety of areas, including User Application Development, Linux Kernel Development, Networking Protocols & Web Development. I’m interested in building strong and secure system architectures, writing quality code, & enjoy learning about low-level programming <mark>(<u>Assembly x86-64), operating systems.</u></mark> 
+                    </p>
+                  <p class="lead">
+                    One of the best experience of my college was in 5th sem (2014), when I used Linux for the first time and after that I became fond of computers. I started writing Embedded C code for Arduino Microcontroller. I did many projects in college and few got selected for Lab Demos for students.</p>
+                  
+                  <p class="lead">
+                    I’m passionate about computer technology; I believe that to build a better approach in Software development, it is important for me to keep on understanding & learning things at my own pace. I believe in Hard work because there is no such thing as smart work. We have to work hard till we become smart. 
+                  </p>
+                  <p class="lead">
+                    I’m always looking for opportunities to further develop my skills, and positively impact those around me with meaningful work. You can find me online on <mark><u><a href="https://www.linkedin.com/in/dheerajkakkar/">LinkedIn</a></u></mark>, <mark><u><a href ="https://twitter.com/r00tdk">Twitter</a></u></mark> or through email. When I’m not <mark><u>coding</mark></u>, I’m probably reading <mark><u>books</u></mark>, watching <mark><u>ML Tutorials</u></mark>listening to <mark><u>music</u></mark>, <mark><u>excercising/playing outdoor</u></mark> or <mark><u>sleeping</u></mark>. 
+                  </p>
+
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </footer><!-- End  Footer -->
+  </section>
+
+  <!--/ Section Services Star /-->
+  <section id="service" class="services-mf route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-a">
+              Skills
+            </h3>
+            <p class="subtitle-a">
+              These are some of the things which I have learned (so far).
+            </p>
+            <div class="line-mf"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="service-box">
+           
+            <div class="service-content">
+              <h2 class="s-title">DS & Algorithms</h2>
+             
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            
+            <div class="service-content">
+              <h2 class="s-title">System Design</h2>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            
+            <div class="service-content">
+              <h2 class="s-title">C/C++/Python</h2>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            
+            <div class="service-content">
+              <h2 class="s-title">Linux Operating System</h2>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            
+            <div class="service-content">
+              <h2 class="s-title">Linux Networking</h2>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            
+            <div class="service-content">
+              <h2 class="s-title">Network Security</h2>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ Section Services End /-->
+
+  <div class="section-counter paralax-mf bg-image" style="background-image: url(img/counters-bg.jpg)">
+    <div class="overlay-mf"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3 col-lg-3">
+          <div class="counter-box counter-box pt-4 pt-md-0">
+            <div class="counter-ico">
+              <span class="ico-circle"><i class="ion-checkmark-round"></i></span>
+            </div>
+            <div class="counter-num">
+              <p class="counter">10</p>
+              <span class="counter-text">ONLINE COURSES COMPLETED</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 col-lg-3">
+          <div class="counter-box pt-4 pt-md-0">
+            <div class="counter-ico">
+              <span class="ico-circle"><i class="ion-ios-calendar-outline"></i></span>
+            </div>
+            <div class="counter-num">
+              <p class="counter">4</p>
+              <span class="counter-text">YEARS OF INDUSTRY EXPERIENCE</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 col-lg-3">
+          <div class="counter-box pt-4 pt-md-0">
+
+            <div class="counter-ico">
+              <span class="ico-circle"><i class="ion-code-working"></i></span>
+            </div>
+
+            <div class="counter-num">
+              <p class="counter">10</p>
+              <span class="counter-text">TOTAL PROJECTS</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 col-lg-3">
+          <div class="counter-box pt-4 pt-md-0">
+            <div class="counter-ico">
+              <span class="ico-circle"><i class="ion-ribbon-a"></i></span>
+            </div>
+            <div class="counter-num">
+              <p class="counter">5</p>
+              <span class="counter-text">HACKERANK / LEETCODE STARS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--/ Section Portfolio Star /-->
+  <section id="work" class="portfolio-mf sect-pt4 route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-a">
+              Projects
+            </h3>
+            <p class="subtitle-a">
+              Some of the cool stuffs which I have coded surprisingly.
+            </p>
+            <div class="line-mf"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="https://github.com/TechieDheeraj/MQTT-APP">
+              <div class="work-img">
+                <img src="img/mqtt.png" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">A Secure Chat based GUI Application using MQTT protocol</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">GUI Applications</span> / <span class="w-date">Jan - Feb 2019</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="https://github.com/TechieDheeraj/Minimal-DNS-Server">
+              <div class="work-img">
+                <img src="img/dns.png" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Minimal DNS Server (IP Address Resolver)</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Networking</span> / <span class="w-date">Sep 2019</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="https://github.com/TechieDheeraj/cpp_projects/tree/master/1_BankingSystem">
+              <div class="work-img">
+                <img src="img/banking.png" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Banking Record System (C++)</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Object Oriented Programming</span> / <span class="w-date">Feb 2020</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+         
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  <!--/ Section Portfolio End /-->
+
+  <!--/ Section Testimonials Star /-->
+  <div class="testimonials paralax-mf bg-image" style="background-image: url(img/overlay-bg.jpg)">
+    <div class="overlay-mf"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div id="testimonial-mf" class="owl-carousel owl-theme">
+            <div class="testimonial-box">
+              <div class="author-test">
+                <img src="img/logo.png" alt="" class="rounded-rectangle b-shadow-a">
+                <span class="author">Security Analyst Intern<br>(Cybervie)<br>May 2019 to Present</span>
+              </div>
+              <div class="content-test">
+                <p class="description lead">
+                  Conducted Security Testing for Internet & Intranet Web Applications<br>
+                  Conducted Detective Threat Mitigation using known attack vectors<br>
+                  Performed SAST & DAST on projects under development<br>
+                  Vetted the tool-based outcomes and removed false positives  <br>Generated multiple reports based on VAPT results
+                </p>
+                
+              </div>
+            </div>
+        
+                
+              
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ 
+  <!--/ Section Blog Star /-->
+  <section id="blog" class="blog-mf sect-pt4 route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-a">
+              Blogs
+            </h3>
+            <!-- <p class="subtitle-a">
+              
+            </p> -->
+            <div class="line-mf"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card card-blog">
+            <div class="card-img">
+              <a href="term_paper.pdf"><img src="img/rop.png" alt="" class="img-fluid"></a>
+            </div>
+            <div class="card-body">
+              <div class="card-category-box">
+                <div class="card-category">
+                  <h6 class="category">Hacking in Darkness</h6>
+                </div>
+              </div>
+              <h3 class="card-title"><a href="term_paper.pdf">ROP Attacks, Mitigation Strategies and its Benign Uses</a></h3>
+              <p class="card-description">
+                Return-oriented programming (ROP) is one of the
+                most common attack methodologies to exploit software specific
+                vulnerabilities in the modern-day operating systems.
+              </p>
+            </div>
+            <div class="card-footer">
+              <div class="post-author">
+                <a href="https://www.linkedin.com/in/montyshyama/">
+                  <img src="img/favicon.png" alt="" class="avatar rounded-circle">
+                  <span class="author">Monty Shyama</span>
+                </a>
+              </div>
+              <div class="post-date">
+                <span class="ion-ios-clock-outline"></span> Nov 2019
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card card-blog">
+            <div class="card-img">
+              <a href="typhoon.png"><img src="img/typhoon.png" alt="" class="img-fluid"></a>
+            </div>
+            <div class="card-body">
+              <div class="card-category-box">
+                <div class="card-category">
+                  <h6 class="category">Typhoon 1.02</h6>
+                </div>
+              </div>
+              <h3 class="card-title"><a href="typhoon.pdf">Step-by-step walk-through of Typhoon 1.02: A Vulnhub VM</a></h3>
+              <p class="card-description">
+                This penetration test report contains step-by-step procedure for gaining user and root shell from a vulnerable
+ubuntu machine running various services. The purpose of this report is to ensure that the student has a full
+understanding of penetration testing methodologies as well as the technical knowledge to implement the same. 
+              </p>
+            </div>
+            <div class="card-footer">
+              <div class="post-author">
+                <a href="https://www.linkedin.com/in/montyshyama/">
+                  <img src="img/favicon.png" alt="" class="avatar rounded-circle">
+                  <span class="author">Monty Shyama</span>
+                </a>
+              </div>
+              <div class="post-date">
+                <span class="ion-ios-clock-outline"></span> Jan 2020
+              </div>
+            </div>
+          </div>
+        </div>
+       
+      </div>
+    </div>
+  </section> 
+
+  <!--/ Section Blog End /-->
+
+
+
+  <!--/ Section Contact-Footer Star /-->
+  <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(img/overlay-bg.jpg)">
+    <div class="overlay-mf"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="contact-mf">
+            <div id="contact" class="box-shadow-full">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="title-box-2">
+                    <h5 class="title-left">
+                      Send Message
+                    </h5>
+                  </div>
+                  <div>
+                      <form id = "my-form" action="https://formspree.io/xyygbrpa" method="POST" role="form" class="contactForm">
+                      <strong><div id="my-form-status"></div></strong><br>
+                      <div id="errormessage"></div>
+                      <div class="row">
+                        <div class="col-md-12 mb-3">
+                          <div class="form-group">
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"/>
+                            
+                          </div>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                          <div class="form-group">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"/>
+                            
+                          </div>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"/>
+                              
+                            </div>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                          <div class="form-group">
+                            <textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
+                            
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <button id = "my-form-button" type="submit" class="button button-a button-big button-rouded">Send Message</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="title-box-2 pt-4 pt-md-0">
+                    <h5 class="title-left">
+                      Get in Touch
+                    </h5>
+                  </div><br>
+                  <div class="more-info">
+                  
+                    <ul class="list-ico">
+                      <li><span class="ion-ios-location"></span> Fatehabad, Haryana, India</li>
+                      <li><span class="ion-ios-telephone"></span> +91 94968054236</li>
+                      <li><span class="ion-email"></span> dheeraj.embdeveloper@gmail.com</li>
+                    </ul>
+                  </div>
+                  <div class="socials">
+                    <ul>
+                      <li><a href="https://www.linkedin.com/in/dheerajkakkar/"><span class="ico-circle"><i class="ion-social-linkedin"></i></span></a></li>
+                      <li><a href="https://twitter.com/r00tdk"><span class="ico-circle"><i class="ion-social-twitter"></i></span></a></li>
+                      <li><a href="https://github.com/TechieDheeraj"><span class="ico-circle"><i class="ion-social-github"></i></span></a></li>
+                      <li><a href="https://youtube.com/TechieDheeraj"><span class="ico-circle"><i class="ion-social-youtube"></i></span></a></li>
+
+                      
+                    </ul>
+<!--
+                  </div>
+                  <a href="https://www.hackthebox.eu/profile/151087"><script src="https://www.hackthebox.eu/badge/151087"></script></a>
+                </div>
+-->
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="copyright-box">
+              <p class="copyright">&copy; Copyright <strong>DevFolio</strong>. All Rights Reserved</p>
+              <div class="credits">
+                <!--
+                  All the links in the footer should remain intact.
+                  You can delete the links only if you purchased the pro version.
+                  Licensing information: https://bootstrapmade.com/license/
+                  Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=DevFolio
+                -->
+                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a><br>
+                Maintained by <strong><a href="https://www.hackthebox.eu/profile/151087">bl1ndh4ck3r</a></strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </section>
+  <!--/ Section Contact-footer End /-->
 
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
   <div id="preloader"></div>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/jquery/jquery.min.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-  <script src="assets/vendor/counterup/jquery.counterup.min.js"></script>
-  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/popper/popper.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/counterup/jquery.waypoints.min.js"></script>
+  <script src="lib/counterup/jquery.counterup.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <script src="lib/typed/typed.min.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+  
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+  <script>
+  window.addEventListener("DOMContentLoaded", function() {
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+    // get the form elements defined in your form HTML above
+    
+    var form = document.getElementById("my-form");
+    var button = document.getElementById("my-form-button");
+    var status = document.getElementById("my-form-status");
+
+    // Success and Error functions for after the form is submitted
+    
+    function success() {
+      form.reset();
+      button.style = "display: none ";
+      status.innerHTML = "Your message has been sent. Thank you!";
+    }
+
+    function error() {
+      status.innerHTML = "Oops! There was a problem.";
+    }
+
+    // handle the form submission event
+
+    form.addEventListener("submit", function(ev) {
+      ev.preventDefault();
+      var data = new FormData(form);
+      ajax(form.method, form.action, data, success, error);
+    });
+  });
+  
+  // helper function for sending an AJAX request
+
+  function ajax(method, url, data, success, error) {
+    var xhr = new XMLHttpRequest();
+    xhr.open(method, url);
+    xhr.setRequestHeader("Accept", "application/json");
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState !== XMLHttpRequest.DONE) return;
+      if (xhr.status === 200) {
+        success(xhr.response, xhr.responseType);
+      } else {
+        error(xhr.status, xhr.response, xhr.responseType);
+      }
+    };
+    xhr.send(data);
+  }
+</script>
 
 </body>
-
 </html>
